@@ -32,7 +32,7 @@ apt install code
 #idea
 echo "Install idea..."
 chmod +x download-idea
-./download-idea
+./download-idea "1nMCyA13W8DQuZVzN080cmy84hDHaHJo5" "ideaIU-2021.2.3.tar.gz"
 tar xzf ideaIU-2021.2.3.tar.gz -C /home
 
 #sfdx

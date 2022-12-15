@@ -1,4 +1,4 @@
-fileid="1nMCyA13W8DQuZVzN080cmy84hDHaHJo5"
-filename="ideaIU-2021.2.3.tar.gz"
+fileid=$1
+filename=$2
 curl -c ./cookie -s -L "https://drive.google.com/uc?export=download&id=${fileid}" > /dev/null
 curl -Lb ./cookie "https://drive.google.com/uc?export=download&confirm=`awk '/download/ {print $NF}' ./cookie`&id=${fileid}" -o ${filename}

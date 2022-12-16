@@ -10,13 +10,18 @@ This script will install late versions of:
 
 
 ## Usage
-To install clone this repository
+To install clone this repository:
 
 ```bash
 cd linux-dev-kit
 ```
 ```bash
 yes | ./script
+```
+
+To crack IntelliJ IDEA opet in, close and after run script: 
+```bash
+yes | ./idea-crack
 ```
 
 Wait installing and enjoy!

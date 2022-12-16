@@ -6,6 +6,7 @@ This script will install late versions of:
 * Chrome
 * VS Code
 * SFDX
+* Flameshot
 * IntelliJ IDEA 2021.2.3 + Crack
 * Illuminated Cloud for Idea + Crack
 

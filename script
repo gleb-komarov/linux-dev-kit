@@ -34,6 +34,10 @@ wget https://developer.salesforce.com/media/salesforce-cli/sfdx/channels/stable/
 mkdir ~/sfdx
 tar xJf sfdx-linux-x64.tar.xz -C ~/sfdx --strip-components 1
 
+#flameshot
+echo "Install flameshot..."
+apt install flameshot
+
 #idea
 echo "Install idea..."
 chmod +x download-from-google

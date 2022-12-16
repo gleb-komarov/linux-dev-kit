@@ -5,6 +5,7 @@ This script will install late versions of:
 * Skype
 * Chrome
 * VS Code
+* SFDX
 * IntelliJ IDEA 2021.2.3 + Crack
 * Illuminated Cloud for Idea + Crack
 

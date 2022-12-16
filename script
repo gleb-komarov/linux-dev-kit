@@ -17,8 +17,7 @@ apt install ./skypeforlinux-64.deb
 
 #chrome
 echo "Install chrome..."
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-apt install ./google-chrome-stable_current_amd64.deb
+apt install google-chrome-stable
 
 #vscode
 echo "Install vscode..."
@@ -29,14 +28,14 @@ sh -c 'echo "deb [arch=amd64 signed-by=/etc/apt/trusted.gpg.d/packages.microsoft
 apt update
 apt install code
 
-#idea
-echo "Install idea..."
-chmod +x download-from-google
-./download-from-google "1nMCyA13W8DQuZVzN080cmy84hDHaHJo5" "ideaIU-2021.2.3.tar.gz"
-tar xzf ideaIU-2021.2.3.tar.gz -C /home
-
 #sfdx
 echo "Install sfdx..."
 wget https://developer.salesforce.com/media/salesforce-cli/sfdx/channels/stable/sfdx-linux-x64.tar.xz
 mkdir ~/sfdx
 tar xJf sfdx-linux-x64.tar.xz -C ~/sfdx --strip-components 1
+
+#idea
+echo "Install idea..."
+chmod +x download-from-google
+./download-from-google "1nMCyA13W8DQuZVzN080cmy84hDHaHJo5" "ideaIU-2021.2.3.tar.gz"
+tar xzf ideaIU-2021.2.3.tar.gz -C /home

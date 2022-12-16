@@ -39,3 +39,7 @@ echo "Install idea..."
 chmod +x download-from-google
 ./download-from-google "1nMCyA13W8DQuZVzN080cmy84hDHaHJo5" "ideaIU-2021.2.3.tar.gz"
 tar xzf ideaIU-2021.2.3.tar.gz -C /home
+
+#illuminated cloud
+echo "Download illuminated cloud..."
+./download-from-google "197ERNBHX5Xdd8JFbecGa-iJ-wuMDZW7S" "IlluminatedCloud2 2_1_9_2.zip"

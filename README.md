@@ -1,13 +1,22 @@
 # Linux dev kit
 
+This script will install late versions of:
+* Nodejs
+* Skype
+* Chrome
+* VS Code
+* IntelliJ IDEA 2021.2.3 + Crack
+* Illuminated Cloud for Idea + Crack
+
+
 ## Usage
 To install clone this repository
 
-```text
-    cd linux-dev-kit
+```bash
+cd linux-dev-kit
 ```
-```text
-    yes | ./script
+```bash
+yes | ./script
 ```
 
-Wait install and enjoy!
+Wait installing and enjoy!

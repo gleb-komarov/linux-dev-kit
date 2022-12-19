@@ -44,6 +44,11 @@ echo "Install cs..."
 ./download-from-google "1QyD9qxj0_aFKGI7UdmG34aI51jCe99GP" "TEST.tar.gz"
 tar xzf TEST.tar.gz -C /home
 
+#zoom
+echo "Install zoom..."
+wget https://zoom.us/client/latest/zoom_amd64.deb
+apt install ./zoom_amd64.deb
+
 #idea
 echo "Install idea..."
 ./download-from-google "1nMCyA13W8DQuZVzN080cmy84hDHaHJo5" "ideaIU-2021.2.3.tar.gz"

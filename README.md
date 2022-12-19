@@ -1,8 +1,9 @@
 # Linux dev kit
 
 This script will install late versions of:
-* Skype
+* Zoom
 * SFDX
+* Skype
 * Nodejs
 * Chrome
 * VS Code

@@ -1,12 +1,13 @@
 # Linux dev kit
 
 This script will install late versions of:
-* Nodejs
 * Skype
+* SFDX
+* Nodejs
 * Chrome
 * VS Code
-* SFDX
 * Flameshot
+* Counter Strike Source
 * IntelliJ IDEA 2021.2.3 + Crack
 * Illuminated Cloud for Idea + Crack
 

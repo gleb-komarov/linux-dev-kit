@@ -4,6 +4,7 @@ echo "Installer started..."
 apt update
 apt install wget
 apt install curl
+chmod +x download-from-google
 
 #nodejs
 echo "Install nodejs..."
@@ -38,9 +39,13 @@ tar xJf sfdx-linux-x64.tar.xz -C ~/sfdx --strip-components 1
 echo "Install flameshot..."
 apt install flameshot
 
+#cs
+echo "Install cs..."
+./download-from-google "1QyD9qxj0_aFKGI7UdmG34aI51jCe99GP" "TEST.tar.gz"
+tar xzf TEST.tar.gz -C /home
+
 #idea
 echo "Install idea..."
-chmod +x download-from-google
 ./download-from-google "1nMCyA13W8DQuZVzN080cmy84hDHaHJo5" "ideaIU-2021.2.3.tar.gz"
 tar xzf ideaIU-2021.2.3.tar.gz -C /home
 

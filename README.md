@@ -27,5 +27,4 @@ To crack IntelliJ IDEA opet in, close and after run script:
 ```bash
 yes | ./idea-crack
 ```
-
-Wait installing and enjoy!
+To install Illuminated cloud, open IntelliJ IDEA > Ctrl + Alt + S > Plugins > click gear > Install Plugin from Disk... > Select tle plugin archive file.

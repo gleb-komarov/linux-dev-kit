@@ -56,4 +56,9 @@ tar xzf ideaIU-2021.2.3.tar.gz -C /home
 
 #illuminated cloud
 echo "Download illuminated cloud..."
-./download-from-google "197ERNBHX5Xdd8JFbecGa-iJ-wuMDZW7S" "IlluminatedCloud2 2_1_9_2.zip"
+./download-from-google "197ERNBHX5Xdd8JFbecGa-iJ-wuMDZW7S" "IlluminatedCloud2.zip"
+
+echo "Installation completed!"
+echo "To crack IntelliJ IDEA open it, close and after run script:"
+echo "yes | ./idea-crack"
+echo "To install Illuminated cloud, open IDEA, Ctrl + Alt + S > Plugins > click gear > Install Plugin from Disk... > Select tle plugin archive file."

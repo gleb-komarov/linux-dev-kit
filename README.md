@@ -24,6 +24,11 @@ cd linux-dev-kit
 yes | ./script
 ```
 
+If permission denied run:
+```bash
+chmod +x ./script
+```
+
 To crack IntelliJ IDEA opet in, close and after run script: 
 ```bash
 yes | ./idea-crack

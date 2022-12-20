@@ -1,6 +1,7 @@
 # Linux dev kit
 
 This script will install late versions of:
+* Git
 * Zoom
 * SFDX
 * Skype
@@ -14,7 +15,7 @@ This script will install late versions of:
 
 
 ## Usage
-To install clone this repository:
+To install download this repository like ZIP archive, extract and run the following commands in  bash:
 
 ```bash
 cd linux-dev-kit

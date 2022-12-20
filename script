@@ -6,6 +6,10 @@ apt install wget
 apt install curl
 chmod +x download-from-google
 
+#git
+echo"Install git..."
+apt install git-all
+
 #nodejs
 echo "Install nodejs..."
 apt install nodejs

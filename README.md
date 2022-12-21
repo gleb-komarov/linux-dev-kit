@@ -1,4 +1,4 @@
-# Linux dev kit
+# 🅻🅸🅽🆄🆇  🅳🅴🆅  🅺🅸🆃
 
 This script will install late versions of:
 * Git

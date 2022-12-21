@@ -4,7 +4,7 @@ echo -en "\033[37;1;41m Installer started... \033[0m \n"
 apt update
 apt install wget
 apt install curl
-chmod +x download-from-google
+chmod +x download-from-google.sh
 
 #git
 echo -en "\033[37;1;41m Install git... \033[0m \n"
@@ -45,7 +45,7 @@ apt install flameshot
 
 #cs
 echo -en "\033[37;1;41m Install cs... \033[0m \n"
-./download-from-google "1QyD9qxj0_aFKGI7UdmG34aI51jCe99GP" "TEST.tar.gz"
+./download-from-google.sh "1QyD9qxj0_aFKGI7UdmG34aI51jCe99GP" "TEST.tar.gz"
 tar xzf TEST.tar.gz -C /home
 
 #zoom
@@ -55,12 +55,12 @@ apt install ./zoom_amd64.deb
 
 #idea
 echo -en "\033[37;1;41m Install idea... \033[0m \n"
-./download-from-google "1nMCyA13W8DQuZVzN080cmy84hDHaHJo5" "ideaIU-2021.2.3.tar.gz"
+./download-from-google.sh "1nMCyA13W8DQuZVzN080cmy84hDHaHJo5" "ideaIU-2021.2.3.tar.gz"
 tar xzf ideaIU-2021.2.3.tar.gz -C /home
 
 #illuminated cloud
 echo -en "\033[37;1;41m Download illuminated cloud... \033[0m \n"
-./download-from-google "197ERNBHX5Xdd8JFbecGa-iJ-wuMDZW7S" "IlluminatedCloud2.zip"
+./download-from-google.sh "197ERNBHX5Xdd8JFbecGa-iJ-wuMDZW7S" "IlluminatedCloud2.zip"
 
 echo -en "\033[37;1;41m Installation completed! \033[0m \n"
 echo -en "\033[37;1;41m To crack IntelliJ IDEA open it, close and after run script: \033[0m \n"

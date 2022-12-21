@@ -21,16 +21,16 @@ To install download this repository like ZIP archive, extract and run the follow
 cd linux-dev-kit
 ```
 ```bash
-yes | ./script
+yes | ./script.sh
 ```
 
 If permission denied run:
 ```bash
-chmod +x ./script
+chmod +x ./script.sh
 ```
 
 To crack IntelliJ IDEA opet in, close and after run script: 
 ```bash
-yes | ./idea-crack
+yes | ./idea-crack.sh
 ```
 To install Illuminated cloud, open IntelliJ IDEA > Ctrl + Alt + S > Plugins > click gear > Install Plugin from Disk... > Select tle plugin archive file.
